@@ -1,0 +1,88 @@
+
+.center{
+    width:789px;
+    height: 357px;
+    overflow: hidden;
+    background: url("../images/LR/gray.png")no-repeat;
+    margin-top: 163px;
+    position:relative;
+}
+.center .pic{
+    float: left;
+    width: 420px;
+    height: 337px;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+.center .pic img{
+    width: 100%;
+}
+.center .login{
+    width: 344px;
+    height: 337px;
+    overflow: hidden;
+    float: right;
+}
+.login p{
+    width: 236px;
+    height: 37px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.login p span{
+    display: block;
+    float: left;
+    width: 46px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: right;
+    padding-right: 5px;
+}
+.login p input{
+    width: 182px;
+    height: 30px;
+}
+.btn{
+    display: block;
+    width: 236px;
+    height: 30px;
+    margin-top: 38px;
+    background: #8e3845;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+}
+.login a{
+    float: none;
+    display: block;
+    width: 55px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+    color: #8e3845;
+    margin-top: 12px;
+}
+
+.promit{
+    display: none;
+    position: absolute;
+    width: 254px;
+    height: 115px;
+    top: 77px;
+    left: 464px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 115px;
+    padding-left: 30px;
+    background:rgba(255,109,80,0.8);
+}
+.x{
+    display: block;
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    top:41px;
+    left: 20px;
+    background: url("../images/LR/x.png") no-repeat center;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>平台简介</title>
+    <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/intro.css"/>
+</head>
+<body>
+<iframe src="top.html" frameborder="0" scrolling="no" width="100%" height="123" ></iframe>
+<iframe id="frame_1" src="nav.html" frameborder="0" scrolling="no" width="100%" height="50" style="margin-top: -5px;" ></iframe>
+<!--tab切换@Start-->
+    <div class="box demo2" style="margin-bottom: 200px">
+        <ul class="tab_menu">
+            <li class="current">平台团队</li>
+            <li>成立背景</li>
+            <li>平台宗旨</li>
+        </ul>
+        <div class="tab_box">
+            <div>
+                <i class="intro"><img src="../images/index/intro.png" alt=""/></i>
+                <p class="page" style="margin-top: 20px">征信记录了个人过去的信用行为，这些行为将影响个人未来的经济活动，这些行为体现在个人信用报告中，就是人们
+                常说的"信用记录",直到2012年以前，中国现行的法律中还没有一项法律法规为征信业务活动提供直接依据，国务院法制办
+                 曾经在2009年10月全文公布《征信管理条例(征求意见稿)》，就征信管理条例征求社会各界意见。
+                </p>
+                <p class="page">征信记录了个人过去的信用行为，这些行为将影响个人未来的经济活动，这些行为体现在个人信用报告中，就是人们
+                    常说的"信用记录",直到2012年以前，中国现行的法律中还没有一项法律法规为征信业务活动提供直接依据，国务院法制办
+                    曾经在2009年10月全文公布《征信管理条例(征求意见稿)》，就征信管理条例征求社会各界意见。
+                </p>
+                <p class="page">征信记录了个人过去的信用行为，这些行为将影响个人未来的经济活动，这些行为体现在个人信用报告中，就是人们
+                    常说的"信用记录",直到2012年以前，中国现行的法律中还没有一项法律法规为征信业务活动提供直接依据，国务院法制办
+                    曾经在2009年10月全文公布《征信管理条例(征求意见稿)》，就征信管理条例征求社会各界意见。
+                </p>
+            </div>
+            <div class="hide">
+                成立背景
+
+            </div>
+            <div class="hide">
+                平台宗旨
+            </div>
+        </div>
+    </div>
+    <!--demo2 end-->
+<!--tab切换@End-->
+    <iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="275" ></iframe>
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.tabs.js"></script>
+    <script type="text/javascript">
+        $('.demo2').Tabs({
+            event:'click'
+        });
+        //改变导航条的背景
+        window.onload=function(){
+            var test= document.getElementById('frame_1').contentWindow.document.getElementById('intro');
+            test.setAttribute("class","bg");
+        };
+    </script>
+</body>
+</html>

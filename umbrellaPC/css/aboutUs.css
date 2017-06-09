@@ -1,0 +1,105 @@
+/* box */
+.box{
+    width:1200px;
+    height: auto;
+    overflow: hidden;
+    background:#fff;
+    margin-top: 30px;
+}
+.tab_menu{
+    overflow:hidden;
+    width: 208px;
+    height: auto;
+    float: left;
+    margin-left: 30px;
+    border: 1px solid #d1d1d1;
+}
+.tab_menu li{
+    width: 208px;
+    height:50px;
+    line-height:50px;
+    font-size: 18px;
+    background:#fff url("../images/index/blackarrow.png") no-repeat 185px 20px;
+    color: #000;
+    text-align:center;
+    cursor:pointer;
+    border-bottom: 1px solid #d1d1d1;
+}
+.tab_menu li.current{
+    color:#fff;
+    background:#8e3845 url("../images/index/whitearrow.png") no-repeat 185px 20px;
+}
+
+.tab_menu li a{
+    color:#fff;
+    text-decoration:none;
+}
+.tab_menu li.current a{
+    color:#333;
+}
+.tab_box{
+    width: 815px;
+    height: auto;
+    float: left;
+    margin-left: 50px;
+}
+
+
+.introduct{
+    clear: both;
+    text-indent: 2em;
+    font-size: .48rem;
+    color: #000000;
+    margin-top: .4rem;
+    padding: .5rem;
+}
+.smallbox{
+    width: 123px;
+    height: 50px;
+    line-height:50px;
+    text-align: center;
+    background: #8e3845;
+    color: #ffffff;
+    font-size:18px;
+    margin-left: 10px;
+
+}
+.map{
+    overflow: hidden;
+    display: block;
+    width: 532px;
+    height: 371px;
+    margin-top: 10px;
+    float: left;
+    margin-left:41px;
+}
+.map img{
+    width: 100%;
+    height: 100%;
+}
+.introduct em{
+    text-indent: 0;
+    display: block;
+    float: left;
+    width: 400px;
+    height: auto;
+    padding-left: 31px;
+}
+.introduct{
+    font-size: 16px;
+    padding-bottom: 10px;
+    height: auto;
+    overflow: hidden;
+    line-height: 36px;
+}
+.introduct i{
+    display: block;
+    float: left;
+    width: 148px;
+    margin-left: 115px;
+    height: 145px;
+}
+.introduct i img{
+    width: 100%;
+    height: 100%;
+}

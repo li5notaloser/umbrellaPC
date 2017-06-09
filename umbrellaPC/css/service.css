@@ -1,0 +1,145 @@
+
+/* box */
+.box{
+    width:1200px;
+    height: auto;
+    overflow: hidden;
+    background:#fff;
+    margin-top: 30px;
+}
+.tab_menu{
+    overflow:hidden;
+    width: 208px;
+    height: auto;
+    float: left;
+    margin-left: 30px;
+    border: 1px solid #d1d1d1;
+}
+.tab_menu li{
+    width: 208px;
+    height:50px;
+    line-height:50px;
+    font-size: 18px;
+    background:#fff url("../images/index/blackarrow.png") no-repeat 185px 20px;
+    color: #000;
+    text-align:center;
+    cursor:pointer;
+    border-bottom: 1px solid #d1d1d1;
+}
+.tab_menu li.current{
+    color:#fff;
+    background:#8e3845 url("../images/index/whitearrow.png") no-repeat 185px 20px;
+}
+
+.tab_menu li a{
+    color:#fff;
+    text-decoration:none;
+}
+.tab_menu li.current a{
+    color:#333;
+}
+.tab_box{
+    width: 815px;
+    height: auto;
+    float: left;
+    margin-left: 50px;
+}
+.intro{
+    display: block;
+    width: 100%;
+    height: 194px;
+    overflow: hidden;
+}
+.intro img{
+    width: 100%;
+    height: 100%;
+}
+.page{
+    overflow: hidden;
+    width: 100%;
+    text-indent: 2em;
+    font-size: 12px;
+    line-height: 23px;
+    color: #000000;
+}
+.credit{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.credit i{
+    display: block;
+    float: left;
+    width: 408px;
+    height: 298px;
+}
+.credit i img{
+    width: 100%;
+    height: 100%;
+}
+.Font{
+    float: left;
+    width: 398px;
+    height: 298px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.Font h3{
+    width: 90%;
+    font-weight: normal;
+    font-size: 38px;
+    color: #000;
+    line-height: 50px;
+}
+.Font h4{
+    width: 90%;
+    font-weight: normal;
+    font-size: 20px;
+    color: #8e3845;
+    line-height: 50px;
+    margin-top: 50px;
+}
+.Font h4 span{
+    font-size: 38px;
+}
+.Font em{
+    display: block;
+    float: right;
+    width: 136px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 8px;
+    background: #8e3845;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 90px;
+    cursor: pointer;
+}
+/*.tab_box li{height:24px;line-height:24px;overflow:hidden;}*/
+/*.tab_box li span{margin:0 5px 0 0;font-family:"宋体";font-size:12px;font-weight:400;color:#ddd;}*/
+.tab_box .hide{display:none;}
+.wedsite{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.wedsite a{
+    display: block;
+    float: left;
+    width: 265px;
+    height:225px;
+    overflow: hidden;
+}
+.wedsite a img{
+    width: 100%;
+    height:198px;
+}
+.wedsite a i{
+    display: block;
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}

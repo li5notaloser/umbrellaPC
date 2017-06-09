@@ -1,0 +1,156 @@
+/* box */
+.box{
+    width:1200px;
+    height: auto;
+    overflow: hidden;
+    background:#fff;
+    margin-top: 30px;
+}
+.tab_menu{
+    overflow:hidden;
+    width: 208px;
+    height: auto;
+    float: left;
+    margin-left: 30px;
+    border: 1px solid #d1d1d1;
+}
+.tab_menu li{
+    width: 208px;
+    height:50px;
+    line-height:50px;
+    font-size: 18px;
+    background:#fff url("../images/index/blackarrow.png") no-repeat 185px 20px;
+    color: #000;
+    text-align:center;
+    cursor:pointer;
+    border-bottom: 1px solid #d1d1d1;
+}
+.tab_menu li.current{
+    color:#fff;
+    background:#8e3845 url("../images/index/whitearrow.png") no-repeat 185px 20px;
+}
+
+.tab_menu li a{
+    color:#fff;
+    text-decoration:none;
+}
+.tab_menu li.current a{
+    color:#333;
+}
+.tab_box{
+    width: 815px;
+    height: auto;
+    float: left;
+    margin-left: 70px;
+}
+
+.profession{
+    width: 100%;
+    height: 590px;
+    overflow: hidden;
+    font-size: 12px;
+}
+.profession li{
+    width: 770px;
+    height: 58px;
+    line-height:58px;
+    overflow: hidden;
+    border-bottom: 1px solid #cccccc;
+    cursor: pointer;
+}
+.profession li em{
+    display: block;
+    width: 283px;
+    float: left;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+}
+.profession li a{
+    display: block;
+    width:174px;
+    float: right;
+    text-align: right;
+    background: url("../images/index/smallarrow.png") no-repeat right center;
+    padding-right: .65rem;
+    box-sizing: border-box;
+}
+.national{
+    width: 100%;
+    height: 590px;
+    overflow: hidden;
+    font-size: 12px;
+}
+.national li{
+    width: 770px;
+    height: 58px;
+    line-height:58px;
+    overflow: hidden;
+    border-bottom: 1px solid #cccccc;
+    cursor: pointer;
+}
+.national li em{
+    display: block;
+    width: 283px;
+    float: left;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+}
+.national li a{
+    display: block;
+    width:174px;
+    float: right;
+    text-align: right;
+    background: url("../images/index/smallarrow.png") no-repeat right center;
+    padding-right: .65rem;
+    box-sizing: border-box;
+}
+.M-box2 ,.M-box1{
+    text-align: right;
+    margin-top: 19px;
+}
+.M-box2 a , .M-box1 a{
+    padding: 5px;
+    color: #e91e63;
+    text-decoration: none;
+}
+.active{
+    font-size: 20px;
+}
+.jump-ipt{
+    width: 50px;
+    height: 20px;
+}
+
+
+.details{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.details h3{
+    color: #8e3845;
+    line-height: 50px;
+    font-weight: 200;
+}
+.details h5{
+    line-height: 30px;
+    font-weight: 200;
+}
+.page{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    line-height: 41px;
+    margin-top: 20px;
+}
+.page b{
+    font-size: 18px;
+    color: #000000;
+    display: block;
+}
+.page dfn{
+    color: #8e3845;
+    display: block;
+}

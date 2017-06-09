@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/editPsd.css"/>
+</head>
+<body>
+<iframe src="topwu.html" frameborder="0" scrolling="no" width="100%" height="130" ></iframe>
+<div class="editPsd">
+    <div class="phoneregist" style="background: url('../images/editPsd/bggray.png'); color: #efefef">手机验证</div>
+    <i><img src="../images/editPsd/arowgray.png" alt=""/></i>
+    <div class="newpsd xiugaigbg" >修改信息</div>
+    <i><img src="../images/editPsd/arrowred.png" alt=""/></i>
+    <div class="success" style="background: url('../images/editPsd/bggray.png')" >设置成功</div>
+</div>
+    <!--完善信息列表@Start-->
+    <div class="blank"></div>
+  <form action="setinfroSucess.html">
+    <div class="list">
+        <a href="javascript:void(0)">
+            <i>手机号</i>
+            <input class="phone" type="text"/>
+            <em class="phonerror">请输入正确手机号码</em>
+        </a>
+        <a href="javascript:void(0)">
+            <i>用户名</i>
+            <input class="user" type="text"/>
+            <em class="usererror">请输入用户名</em>
+        </a>
+        <a href="javascript:void(0)">
+            <i>企业名称</i>
+            <input class="qiye" type="text"/>
+            <em class="qiyerror">请输入企业名称</em>
+        </a>
+        <a href="javascript:void(0)">
+            <i>营业执照编号</i>
+            <input class="licencecode" type="text" maxlength="18"/>
+            <em class="licencecoderror"></em>
+        </a>
+        <a href="javascript:void(0)">
+            <i>营业执照</i>
+            <dfn id="licence">
+                <div id="preview">
+                    <img id="imghead" border=0 src="" width="180" height="180" />
+                </div>
+                <input id="file" type="file" onchange="previewImage(this)" value="请选择"/>
+                <i id="filebtn">请选择</i>
+            </dfn>
+        </a>
+        <input class="tuijian" type="text" placeholder="推荐人(选填)"/>
+        <input type="submit" id="finish" value="下一步">
+    </div>
+  </form>
+    <!--完善信息列表@End-->
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/downup.js"></script>
+<script type="text/javascript" src="../js/regist.js"></script>
+</body>
+</html>
+

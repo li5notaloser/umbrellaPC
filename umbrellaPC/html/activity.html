@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>活动专区</title>
+    <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/activity.css"/>
+</head>
+<body>
+<iframe src="top.html" frameborder="0" scrolling="no" width="100%" height="123" ></iframe>
+<iframe id="frame_1"  src="nav.html" frameborder="0" scrolling="no" width="100%" height="50" style="margin-top: -5px;" ></iframe>
+<div class="box demo2" style="margin-bottom: 200px">
+    <ul class="tab_menu">
+        <li id="activity" style="border: none;">平台活动</li>
+    </ul>
+    <div class="tab_box">
+
+    </div>
+</div>
+<iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="180" style="display: block;border: 0;"></iframe>
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+    $("#activity").on("click",function(){
+      $(this).addClass("current").siblings().removeClass("current");
+      $(".tab_box").load("activity/activitylist.html",function(){
+          $(".profession li").on("click",function(){
+              $(".tab_box").load("activity/details.html",function(){
+                  $(".tab_box").load("activity/details.html",function(){
+                      
+                  })
+
+              })
+          })
+
+      })
+    });
+    //默认加载显示
+    $("#activity").trigger("click");
+    window.onload=function(){
+        var test= document.getElementById('frame_1').contentWindow.document.getElementById('activity');
+        test.setAttribute("class","bg");
+    };
+</script>
+</body>
+</html>

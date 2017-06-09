@@ -1,0 +1,29 @@
+.nav{
+    width: 100%;
+    height: 50px;
+    background: #8e3845;
+    overflow: hidden;
+    /*margin-top: -5px;*/
+}
+.nav .menu{
+    width: 1150px;
+    height: 50px;
+    overflow: hidden;
+
+}
+.nav .menu a{
+    margin-left: 11px;
+    display: block;
+    float: left;
+    width: 218px;
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -6px;
+    color: #ffffff;
+}
+.nav .menu a.bg{
+    background: url("../images/index/whitebg.png") no-repeat;
+    color: #8e3845;
+}

@@ -1,0 +1,154 @@
+
+/* box */
+.box{
+    width:1200px;
+    height: auto;
+    overflow: hidden;
+    background:#fff;
+    margin-top: 30px;
+}
+.tab_menu{
+    overflow:hidden;
+    width: 208px;
+    height: auto;
+    float: left;
+    margin-left: 30px;
+    border: 1px solid #d1d1d1;
+}
+.tab_menu li{
+    width: 208px;
+    height:50px;
+    line-height:50px;
+    font-size: 18px;
+    background:#fff url("../images/index/blackarrow.png") no-repeat 185px 20px;
+    color: #000;
+    text-align:center;
+    cursor:pointer;
+    border-bottom: 1px solid #d1d1d1;
+}
+.tab_menu li.current{
+    color:#fff;
+    background:#8e3845 url("../images/index/whitearrow.png") no-repeat 185px 20px;
+}
+
+.tab_menu li a{
+    color:#fff;
+    text-decoration:none;
+}
+.tab_menu li.current a{
+    color:#333;
+}
+.tab_box{
+    width: 883px;
+    height: auto;
+    float: left;
+    margin-left: 60px;
+}
+
+
+/*.business{*/
+    /*width: 100%;*/
+    /*color: #000000;*/
+/*}*/
+/*.business li{*/
+    /*width: 100%;*/
+    /*height:58px;*/
+    /*line-height: 58px;*/
+    /*overflow: hidden;*/
+    /*text-align: center;*/
+    /*margin-top: 10px;*/
+
+/*}*/
+.th{
+    width: 1200px;
+    height: 40px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.th i{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background: #8e3845;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+}
+.username{
+    margin-left: 54px;
+}
+.projectname{
+    margin-left: 117px;
+}
+.qiyename{
+    margin-left: 118px;
+}
+.state{
+    margin-left: 109px;
+}
+.business li{
+    width: 100%;
+    height: auto;
+    line-height:40px;
+    overflow: hidden;
+}
+.business li em{
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #adadad;
+}
+.business li .name{
+    width: 207px;
+    text-align: center;
+}
+.business li .guangao{
+    width: 230px;
+    margin-left: 6px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.business li .info{
+    text-align: center;
+    width: 198px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.business li .finish{
+    text-align: center;
+    width: 216px;
+    color: #8e3845;
+}
+.business li.line{
+    border-bottom: 1px solid #cccccc;
+}
+
+.M-box2 ,.M-box1{
+    text-align: right;
+    margin-top: 19px;
+}
+.M-box2 a , .M-box1 a{
+    padding: 5px;
+    color: #e91e63;
+    text-decoration: none;
+}
+.active{
+    font-size: 20px;
+}
+.jump-ipt{
+    width: 50px;
+    height: 20px;
+}
+.main{
+    width: 100%;
+    height: 470px;
+    overflow: hidden;
+}
+

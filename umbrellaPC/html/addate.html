@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>信息录入</title>
+    <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/regist.css"/>
+    <link rel="stylesheet" href="../css/editPsd.css"/>
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.validate.min.js" ></script>
+    <script type="text/javascript" src="../js/messages_zh.js" ></script>
+</head>
+
+<body>
+    <iframe src="topwu.html" frameborder="0" scrolling="no" width="100%" height="130" ></iframe>
+    <!--完善信息列表@Start-->
+    <div class="editPsd">
+        <div class="phoneregist" style="background: url('../images/editPsd/bggray.png'); color: #efefef">手机验证</div>
+        <i><img src="../images/editPsd/arowgray.png" alt=""/></i>
+        <div class="newpsd xiugaigbg" >信息录入</div>
+        <i><img src="../images/editPsd/arrowred.png" alt=""/></i>
+        <div class="success" style="background: url('../images/editPsd/bggray.png')" >注册成功</div>
+    </div>
+    <form action="registSuccess.html" >
+        <div class="list">
+            <a href="javascript:void(0)">
+                <i>手机号</i>
+                <input class="phone ismobile" type="text" name="phone" required/>
+                <em class="phonerror">请输入正确手机号码</em>
+            </a>
+            <a href="javascript:void(0)">
+                <i>用户名</i>
+                <input class="user" type="text" name="user" required/>
+                <em class="usererror">请输入用户名</em>
+            </a>
+            <a href="javascript:void(0)">
+                <i>企业名称</i>
+                <input class="qiye" type="text" name="mingzi" required/>
+                <em class="qiyerror">请输入企业名称</em>
+            </a>
+            <a href="javascript:void(0)">
+                <i>营业执照编号</i>
+                <input class="licencecode" type="text" maxlength="18" name="bianhao" required/>
+                <em class="licencecoderror"></em>
+            </a>
+            <a href="javascript:void(0)">
+                <i>营业执照</i>
+                <dfn id="licence">
+                    <div id="preview">
+                        <img id="imghead" border=0 src="" width="180" height="180"  />
+                    </div>
+                    <input id="file" type="file" onchange="previewImage(this)" value="请选择"/>
+                    <i id="filebtn">请选择</i>
+                </dfn>
+            </a>
+            <input class="tuijian" type="text" placeholder="推荐人(选填)"/>
+            <input id="finish"  type="submit" value="下一步">
+        </div>
+    </form>
+    <!--完善信息列表@End-->
+    <script type="text/javascript" src="../js/downup.js"></script>
+    <script type="text/javascript" src="../js/newInfro.js"></script>
+    <script type="text/javascript">
+//        $().ready(function() {
+//            $("#myform").validate({
+//                errorElement: "dfn",
+//                rules: {
+//                    phone: {required: true},
+//                    user: {required: true},
+//                    mingzi: {required: true},
+//                    bianhao: {required: true}
+//
+//                }
+//            });
+//        });
+//        jQuery.validator.addMethod("ismobile", function(value, element) {
+//            var length = value.length;
+//            var mobile = /^1[34578]\d{9}$/;
+//            return (length == 11 && mobile.exec(value))? true:false;
+//        }, "请正确填写您的手机号码");
+
+
+
+    </script>
+</body>
+</html>

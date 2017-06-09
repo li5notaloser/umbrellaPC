@@ -1,0 +1,81 @@
+body{
+    position: relative;
+}
+
+.systemlist{
+    padding-bottom: 1.69rem;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.systemlist a{
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height:206px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.systemlist a i{
+    display: block;
+    float: left;
+    width: 192px;
+    height: 196px;
+}
+.systemlist a i img{
+    width: 100%;
+    height: 100%;
+}
+.systemlist a p{
+    float: left;
+    width: 560px;
+    height: 188px;
+    padding-left: 50px;
+}
+.systemlist a p .title{
+    float: left;
+    width: 350px;
+    font-size: 18px;
+    display: block;
+    color: #000000;
+}
+.systemlist a p .finish{
+    float: left;
+    width: 191px;
+    font-size: 18px;
+    display: block;
+    color: #000000;
+    text-align: right;
+}
+.finish span{
+    color: #8e3845;
+}
+.systemlist a p b{
+    display: block;
+    padding-top:30px;
+    font-size: 16px;
+    width: 100%;
+    height: 93px;
+    overflow: auto;
+ }
+.systemlist a p i{
+    display: block;
+    margin-top: .15rem;
+    font-size: .42rem;
+    width: 100%;
+    height: auto;
+}
+.systemlist a p dfn{
+    width: 150px;
+    float: right;
+    height: 38px;
+    display: block;
+    text-align: right;
+    overflow: hidden;
+    margin-top: 10px;
+    padding-right: 13px;
+}
+.systemlist a p dfn img{
+    width: 100%;
+    height: 100%;
+}

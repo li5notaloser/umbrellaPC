@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>平台交易记录</title>
+    <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/jiaoyi.css"/>
+</head>
+<body>
+<iframe src="top.html" frameborder="0" scrolling="no" width="100%" height="123" ></iframe>
+<!--tab切换@Start-->
+<div class="box demo2" style="margin-bottom: 200px">
+    <ul class="tab_menu">
+        <li class="current" style="border: none;">平台交易记录</li>
+    </ul>
+    <div class="tab_box">
+        <div class="main">
+            <div class="th">
+                <i class="username">用户名</i>
+                <i class="qiyename">企业名称</i>
+                <i class="projectname">项目名称</i>
+                <i class="state">状态</i>
+            </div>
+            <ul class="business">
+                <li class="line">
+                    <em class="name">1******9</em>
+                    <em class="guangao">xxx广告有限公司</em>
+                    <em class="info">商标服务</em>
+                    <em class="finish">已完成</em>
+                </li>
+                <li class="line">
+                    <em class="name">1******9</em>
+                    <em class="guangao">xxx广告有限公司广告有限公司广告有限公司广告有限公司</em>
+                    <em class="info">ios9001体系认证</em>
+                    <em class="finish">已完成</em>
+                </li>
+                <li class="line">
+                    <em class="name">1******9</em>
+                    <em class="guangao">xxx广告有限公司</em>
+                    <em class="info">商标服务</em>
+                    <em class="finish">已完成</em>
+                </li>
+                <li class="line">
+                    <em class="name">1******9</em>
+                    <em class="guangao">xxx广告有限公司</em>
+                    <em class="info">商标服务</em>
+                    <em class="finish">已完成</em>
+                </li>
+                <li class="line">
+                    <em class="name">1******9</em>
+                    <em class="guangao">xxx广告有限公司</em>
+                    <em class="info">商标服务</em>
+                    <em class="finish">已完成</em>
+                </li>
+                <li class="line">
+                    <em class="name">1******9</em>
+                    <em class="guangao">xxx广告有限公司</em>
+                    <em class="info">商标服务</em>
+                    <em class="finish">已完成</em>
+                </li>
+                <li class="line">
+                    <em class="name">1******9</em>
+                    <em class="guangao">xxx广告有限公司广告有限公司广告有限公司广告有限公司</em>
+                    <em class="info">ios9001体系认证</em>
+                    <em class="finish">已完成</em>
+                </li>
+                <li class="line">
+                    <em class="name">1******9</em>
+                    <em class="guangao">xxx广告有限公司</em>
+                    <em class="info">商标服务</em>
+                    <em class="finish">已完成</em>
+                </li>
+                <li class="line">
+                    <em class="name">1******9</em>
+                    <em class="guangao">xxx广告有限公司</em>
+                    <em class="info">商标服务</em>
+                    <em class="finish">已完成</em>
+                </li>
+                <li class="line">
+                    <em class="name">1******9</em>
+                    <em class="guangao">xxx广告有限公司</em>
+                    <em class="info">商标服务</em>
+                    <em class="finish">已完成</em>
+                </li>
+            </ul>
+        </div>
+        <div class="M-box1"></div>
+ </div>
+</div>
+</div>
+<!--demo2 end-->
+<!--tab切换@End-->
+<iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="275" ></iframe>
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/jquery.pagination.js"></script>
+<script type="text/javascript">
+    $('.M-box1').pagination({
+        totalData:100,
+        showData:5,
+        jump:true,
+        coping:true,
+        homePage:'首页',
+        endPage:'末页',
+        prevContent:'上页',
+        nextContent:'下页',
+        callback:function(api){
+            //            console.log(api.getCurrent());
+        }
+    },function(api){
+        //        console.log(api.getCurrent());
+    });
+</script>
+</body>
+</html>

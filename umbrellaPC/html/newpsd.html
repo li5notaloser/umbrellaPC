@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>设置新密码</title>
+    <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/editPsd.css"/>
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.validate.min.js" ></script>
+    <script type="text/javascript" src="../js/messages_zh.js" ></script>
+</head>
+<body>
+<iframe src="topwu.html" frameborder="0" scrolling="no" width="100%" height="130" ></iframe>
+    <div class="editPsd">
+        <div class="phoneregist" style="background: url('../images/editPsd/bggray.png'); color: #efefef">手机验证</div>
+        <i><img src="../images/editPsd/arowgray.png" alt=""/></i>
+        <div class="newpsd xiugaigbg" >设置新密码</div>
+        <i><img src="../images/editPsd/arrowred.png" alt=""/></i>
+        <div class="success" style="background: url('../images/editPsd/bggray.png')" >设置成功</div>
+    </div>
+<form id="myform" action="setSuccess.html">
+    <div class="main">
+        <p>
+            <span>新密码:</span>
+            <input type="password" id="password" name="password" placeholder="请输入新密码" required/>
+        </p>
+        <p>
+            <span>确认密码:</span>
+            <input type="password"  name="password_again" placeholder="请输入确认密码" required/>
+        </p>
+        <input class="submit" type="submit" value="下一步"/>
+    </div>
+</form>
+<script type="text/javascript">
+    $( "#myform" ).validate({
+        errorElement: "dfn",
+        rules: {
+            password: "required",
+            password_again: {
+                equalTo: "#password"
+            }
+        }
+    });
+</script>
+</body>
+</html>

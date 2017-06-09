@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/top.css"/>
+    <link rel="stylesheet" href="../css/login.css"/>
+    <link rel="stylesheet" href="../js/jquery-1.11.1.min.js"/>
+</head>
+<body>
+<iframe src="topwu.html" frameborder="0" scrolling="no" width="100%" height="130" ></iframe>
+<div class="center">
+        <div class="pic"><img src="../images/LR/img.png" alt=""/></div>
+        <div class="login">
+            <p style="margin-top: 88px" >
+                <span>用户名:</span>
+                <input class="user"  onblur="check('.user')"  type="text" />
+            </p>
+            <p style="height: auto">
+                <span>密 码:</span>
+                <input class="psw"  onblur="check('.psw')" type="password"/>
+                <a style="float: right" href="javascript:void (0)">忘记密码</a>
+            </p>
+            <div class="promit">
+                <i>用户名和密码不能为空！</i>
+                <i class="x"></i>
+            </div>
+            <input onclick="Url('index.html')" class="btn" type="button" value="登 录"/>
+            <a href="regist.html">立即注册</a>
+        </div>
+    </div>
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">
+        function Url(obj){
+            window.location.href=obj;
+        }
+        $(".x").click(function(){
+            $(".promit").css("display","none");
+        });
+        function check(obj){
+            if($(obj).val()==null || $(obj).val()==''){
+                $(".promit").css("display","block");
+            }
+        }
+    </script>
+
+</body>
+</html>

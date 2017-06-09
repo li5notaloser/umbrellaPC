@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+    <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/contact.css"/>
+</head>
+<body>
+<iframe src="top.html" frameborder="0" scrolling="no" width="100%" height="123" ></iframe>
+<iframe id="frame_1" src="nav.html" frameborder="0" scrolling="no" width="100%" height="50" style="margin-top: -5px;" ></iframe>
+<div class="contactmain">
+    <div class="aboutus">
+       <h3>西安久弘软件信息技术有限责任公司</h3>
+       <p class="email">service@9hrj.com</p>
+       <p class="phone">029-81028833</p>
+       <p class="mobeil">15991630070/15594996102</p>
+       <p class="adress">西安市高新区唐延南路i都会3号楼1单元0658室</p>
+       <p class="internet">www.9hrj.com</p>
+    </div>
+    <!--<i class="map" ></i>-->
+    <div class="map" id="map" ></div>
+</div>
+<iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="275" ></iframe>
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+    //改变导航条的背景
+    window.onload=function(){
+        var test= document.getElementById('frame_1').contentWindow.document.getElementById('contact');
+        test.setAttribute("class","bg");
+    };
+</script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+<script type="text/javascript" src="../js/map.js"></script>
+</body>
+</html>

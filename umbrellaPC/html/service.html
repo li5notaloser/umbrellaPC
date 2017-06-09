@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>服务商城</title>
+    <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/service.css"/>
+    <link rel="stylesheet" href="../css/prompt.css"/>
+    <link rel="stylesheet" href="../css/publiclist.css"/>
+</head>
+<body>
+<iframe src="top.html" frameborder="0" scrolling="no" width="100%" height="123" ></iframe>
+<iframe id="frame_1" src="nav.html" frameborder="0" scrolling="no" width="100%" height="50" style="margin-top: -5px;" ></iframe>
+<!--tab切换@Start-->
+<div class="box demo2" style="margin-bottom: 200px">
+    <ul class="tab_menu">
+        <li id="tixi">体系产品认证</li>
+        <li id="qiyeguanli">企业信用资质</li>
+        <li id="fawu">企业法务管理</li>
+        <li id="shangbiao">商标服务</li>
+        <li id="Internet" style="border: none;">互联网服务</li>
+    </ul>
+    <div class="tab_box">
+
+    </div>
+</div>
+<!--demo2 end-->
+<!--tab切换@End-->
+
+<!--弹框1 提示登录-->
+<div class="bgbox_login" style="display:none">
+    <div class="sure">
+        <p>亲！您还没有登录哦</p>
+        <div class="loginin">
+            <a class="ok_login" href="login.html">登录</a>
+            <a class="cancel_login" href="javascript:void (0)">取消</a>
+        </div>
+    </div>
+</div>
+<!--弹框1 End-->
+
+<!--弹框2 确认提交-->
+<div class="bgbox_ziliao" style="display:none">
+    <div class="sure">
+        <p>确认提交您的资料吗</p>
+        <div class="loginin">
+            <a class="ok_ziliao" href="javascript:void (0)">确认</a>
+            <a class="cancel_ziliao" href="javascript:void (0)">取消</a>
+        </div>
+    </div>
+</div>
+<!--弹框2 End-->
+
+<!--弹框3 提交成功-->
+<div class="bgbox_ok" style="display:none">
+    <div class="sure">
+        <p style="line-height: 39px;">您的资料已经成功提交，请耐心等待工作人员与您联系</p>
+        <div class="loginin" style="margin-top: 0;margin-bottom: 0;">
+            <a class="ok" href="javascript:void (0)" style="margin-left:94px;line-height: 50px; height: 50px;">确认</a>
+        </div>
+    </div>
+</div>
+<!--弹框3 End-->
+<iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="180" ></iframe>
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/service.js"></script>
+<script type="text/javascript">
+    //改变导航条的背景
+    window.onload=function(){
+        var test= document.getElementById('frame_1').contentWindow.document.getElementById('service');
+        test.setAttribute("class","bg");
+    };
+</script>
+</body>
+</html>
